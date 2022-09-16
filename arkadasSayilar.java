@@ -15,7 +15,7 @@ public class arkadasSayilar {
                 toplam2 = toplam2 + i;
             }      
         }
-        if(sayi == toplam2 && sayi2 ==toplam1){
+        if(sayi1 == toplam2 && sayi2 ==toplam1){
             System.out.println("Bu iki sayı arkadaştır");
         }else{
             System.out.println("Bu iki sayı arkadaş DEĞİL");
