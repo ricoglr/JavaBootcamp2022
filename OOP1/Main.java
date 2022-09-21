@@ -24,6 +24,18 @@ public class Main {
         product1.stock = 9;
         product1.discount = 2;
         product1.imgUrl = "dem3.jpg";
+
+        Product[] products ={
+            product1,
+            product2,
+            product3
+        };
+
+        System.out.println("<ul>");
+        for(Product product : products){
+            System.out.println("<li>" + product.name + "</li>");
+        }
+        System.out.println("</ul>");
         
     }
 }
