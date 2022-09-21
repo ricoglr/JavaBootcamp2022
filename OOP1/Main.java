@@ -5,25 +5,25 @@ public class Main {
     public static void main(String[] args) {
 
         Product product1 = new Product();
-        product1.name = "Macbook Pro";
-        product1.price = 27.900;
-        product1.stock = 3;
-        product1.discount = 7;
-        product1.imgUrl = "demo.jpg";
+        product1.setName("Macbook Pro");
+        product1.setPrice(27.900);
+        product1.setStock(3);
+        product1.setDiscount(7);
+        product1.setImgUrl("demo1.jpg");
 
         Product product2 = new Product();
-        product1.name = "Macbook Pro";
-        product1.price = 16.900;
-        product1.stock = 7;
-        product1.discount = 2;
-        product1.imgUrl = "demo2.jpg";
+        product2.setName("Macbook Air");
+        product2.setPrice(16.900);
+        product2.setStock(7);
+        product2.setDiscount(2);
+        product2.setImgUrl("demo2.jpg");
 
         Product product3 = new Product();
-        product1.name = "Macbook Pro";
-        product1.price = 20.100;
-        product1.stock = 9;
-        product1.discount = 2;
-        product1.imgUrl = "dem3.jpg";
+        product3.setName("Macbook Pro");
+        product3.setPrice(20.100);
+        product3.setStock(9);
+        product3.setDiscount(2);
+        product3.setImgUrl("dem3.jpg");
 
         Product[] products ={
             product1,
@@ -33,9 +33,15 @@ public class Main {
 
         System.out.println("<ul>");
         for(Product product : products){
-            System.out.println("<li>" + product.name + "</li>");
+            System.out.println("<li>" + product.getName() + "</li>");
         }
         System.out.println("</ul>");
+
+
+        IndividualCustomer individualCustomer = new IndividualCustomer();
+        individualCustomer.setId(0);
+        individualCustomer.setPhone("053423527");
+        individualCustomer.setCustomerNumber("12345");
         
     }
 }
