@@ -22,8 +22,8 @@ public class Main {
         System.out.println("Product Stock ---> " + product.stock);
         */
 
-        ProductManage productManage = new ProductManage();
-        productManage.Add(product);
+        ProductManager productManager = new ProductManager();
+        productManager.Add(product);
 
 
 
