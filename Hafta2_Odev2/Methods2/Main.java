@@ -9,6 +9,9 @@ public class Main {
         int sayi = topla(5,7);
         System.out.println(sayi);
         System.out.println(mesaj);
+        int topla = topla2(2,3,4,5,6,10);
+        System.out.println("-------------------");
+        System.out.println(topla);
     }
     
     public static void ekle(){
@@ -27,6 +30,16 @@ public class Main {
     public static int topla(int x, int y) {
         
         return x+y;
+    }
+
+    public static int topla2 (int... sayilar) {
+        int toplam = 0;
+
+        for(int sayi : sayilar){
+            toplam += sayi;
+        }
+
+        return toplam;
     }
 
     public static String sehirVer() {
