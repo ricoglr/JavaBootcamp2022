@@ -56,5 +56,6 @@ public class Main {
             individualCustomer,
             corporateCustomer
         };
+        System.out.println(customers);
     }
 }
