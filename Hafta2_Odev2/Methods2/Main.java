@@ -1,6 +1,5 @@
 package Hafta2_Odev2.Methods2;
 
-import java.security.PublicKey;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,6 +8,7 @@ public class Main {
         System.out.println(yeniMesaj);
         int sayi = topla(5,7);
         System.out.println(sayi);
+        System.out.println(mesaj);
     }
     
     public static void ekle(){
