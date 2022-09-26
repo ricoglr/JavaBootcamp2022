@@ -1,8 +1,14 @@
 package Hafta2_Odev2.Constructor;
 
 public class Product {
+
+    public Product(int id, String name, String description, int stock, String renk){
+
+        System.out.println(" 'Constructor Method Running' ");
+    }
+
     private int id;
-    String name;
+    private String name;
     private String description;
     private double price;
     private int stock;
@@ -25,7 +31,7 @@ public class Product {
         this.id = id;
     }
 
-    public String getName() {
+    public String getName(String name) {
         return this.name;
     }
 
